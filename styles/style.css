@@ -26,7 +26,7 @@
     color: black;
 }
 
-#about-wrapper {
+#about {
     height: 100vh;
     background-color: black;
     display: flex;
@@ -59,7 +59,7 @@
     /* height: 100vh; */
 }
 
-#experience-wrapper h2 {
+#experience h2 {
     text-align: center;
 }
 
@@ -139,4 +139,97 @@
     height: 30vh;
     width: 20vw;
     background-color: white;
+    filter: grayscale(100%);
+}
+
+.project-wrapper:hover {
+    filter: grayscale(0);
+}
+
+.project-name {
+    color: white;
+}
+
+#crutchfield {
+    background-image: url('../assets/projects/crutchfield.png');
+    background-size: cover;
+}
+
+#rox {
+    background-image: url('../assets/projects/Roxanne.png');
+    background-size: cover;
+}
+
+#trust {
+    background-image: url('../assets/projects/trust.png');
+    background-size: cover;
+}
+
+#heritage {
+    background-image: url('../assets/projects/heritage.png');
+    background-size: cover;
+}
+
+#stasio {
+    background-image: url('../assets/projects/stasios.png');
+    background-size: cover;
+}
+
+#espresso {
+    background-image: url('../assets/projects/espresso.png');
+    background-size: cover;
+}
+
+#tanq {
+    background-image: url('../assets/projects/tanq.png');
+    background-size: cover;
+}
+
+#contact {
+    padding-top: 30px;
+}
+
+#contact form {
+    text-align: center;
+}
+
+.half {
+    width: 30vw;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+.full {
+    width: 60vw;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid black;
+}
+
+#contact textarea {
+    border: 2px solid black;
+    height: 250px;
+    resize: none;
+}
+
+#submit-btn {
+    background-color: black;
+    color: white;
+}
+
+#contact-links-wrapper ul{
+/* text-align: center; */
+list-style-type: none;
+vertical-align: middle;
+line-height: 175px;
+}
+
+#contact-links-wrapper ul li {
+
+}
+
+#contact-links-wrapper ul li a {
+    color: black;
+    font-size: 2em;
 }
